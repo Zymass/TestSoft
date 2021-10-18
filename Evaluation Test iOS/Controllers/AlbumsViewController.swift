@@ -36,8 +36,10 @@ class AlbumsViewController: UIViewController {
                 guard let albumsModel = albumsModel else {
                     return
                 }
-                
-                self?.albums = albumsModel.results
+                let sortedAlbums = albumsModel.results.sorted { first, second in
+                    return first.collectionName.compare(second.collectionName) == ComparisonResult.orderedAscending
+                }
+                self?.albums = sortedAlbums
                 self?.collectionView.reloadData()
             }else{
                 print(error!.localizedDescription)

@@ -70,14 +70,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1815AC22271DC61F00B0AE6E /* ViewController */ = {
+		1815AC22271DC61F00B0AE6E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				1836B12327188713004A212C /* AlbumsViewController.swift */,
 				1836B142271AA784004A212C /* DetailInformationViewController.swift */,
 				1880724D271B02D7001D1EC8 /* HistoryViewController.swift */,
 			);
-			path = ViewController;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		1815AC23271DC66000B0AE6E /* View */ = {
@@ -110,7 +110,7 @@
 				1836B11F27188713004A212C /* AppDelegate.swift */,
 				1836B12127188713004A212C /* SceneDelegate.swift */,
 				1815AC23271DC66000B0AE6E /* View */,
-				1815AC22271DC61F00B0AE6E /* ViewController */,
+				1815AC22271DC61F00B0AE6E /* Controllers */,
 				1815AC21271DC60700B0AE6E /* Model */,
 				1815AC1C271DC59600B0AE6E /* Extension */,
 				1836B13B2718D751004A212C /* Data */,
